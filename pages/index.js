@@ -1,7 +1,14 @@
 import React from "react";
 
+//INTERNAL IMPORT
+import { useStateContext } from "../Context";
+
 const index = () => {
-  return <div>index</div>;
+
+  const { TOKEN_ICO } = useStateContext();
+  return <div>
+    <h1>{TOKEN_ICO}</h1>
+  </div>;
 };
 
 export default index;
