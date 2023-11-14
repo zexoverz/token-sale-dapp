@@ -162,7 +162,8 @@ export const StateContextProvider = ({children}) => {
             tokenHolders, 
             nativeToken, 
             balance, 
-            address}}>
+            address
+            }}>
             {children}
         </StateContext.Provider>
     )
