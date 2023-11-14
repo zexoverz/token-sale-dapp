@@ -151,7 +151,18 @@ export const StateContextProvider = ({children}) => {
     }
 
     return (
-        <StateContext.Provider value={{transferNativeToken, TOKEN_ICO}}>
+        <StateContext.Provider value={{
+            transferNativeToken, 
+            buyToken, 
+            connectWallet, 
+            setAddress, 
+            TOKEN_ICO, 
+            currentHolder, 
+            tokenSale, 
+            tokenHolders, 
+            nativeToken, 
+            balance, 
+            address}}>
             {children}
         </StateContext.Provider>
     )
