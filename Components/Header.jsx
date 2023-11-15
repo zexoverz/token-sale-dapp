@@ -35,7 +35,7 @@ const Header = ({address, setAddress, connectWallet }) => {
   return <div className="header_wrap fixed-top">
     <div className="container-fluid">
       <nav className="navbar navbar-expand-lg">
-        <a href="#home_section" data-animation="fadeInDown" data-animation-delay="1s" className="navbar-brand page-scroll-animation">
+        <a href="#home_section" data-animation="fadeInDown" data-animation-delay="1s" className="navbar-brand page-scroll animation">
           <img src="assets/images/logo.png" alt="logo" className="logo_light" />
           <img src="assets/images/logo_dark.png" alt="logo" className="logo_dark" />
         </a>
@@ -45,7 +45,7 @@ const Header = ({address, setAddress, connectWallet }) => {
         data-target="#navbarSupportedContent" 
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
-        aria-label="Toggle Navigation"
+        aria-label="Toggle navigation"
         data-animation="fadeInDown"
         data-animation-delay="1.1s"
         >
@@ -56,7 +56,7 @@ const Header = ({address, setAddress, connectWallet }) => {
           <ul className="navbar-nav m-auto">
             {
               menuList.map((menu, i) => (
-                <li key={i+1} className="animation" data-animation="fadeInDown" data-animation-delay={`1.${i + 1}`}>
+                <li key={i+1} className="animation" data-animation="fadeInDown" data-animation-delay={`1.${i + 1}s`}>
                   <a href={menu.link} className="nav-link">
                     {menu.menu}
                   </a>
