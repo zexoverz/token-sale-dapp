@@ -36,7 +36,7 @@ const TokenSale = ({buyToken, tokenSale}) => {
             </h6>
             <p className="animation" 
             data-animation="fadeInUp" data-animation-delay="0.2s">
-              Nov 16, 2023 (Thu 10:00 Aam)
+              Nov 16, 2023 (Thu 10:00 AM)
             </p>
           </div>
           <div className="pr_box">
@@ -46,7 +46,7 @@ const TokenSale = ({buyToken, tokenSale}) => {
             </h6>
             <p className="animation" 
             data-animation="fadeInUp" data-animation-delay="0.2s">
-              Nov 16, 2024 (Thu 10:00 Aam)
+              Nov 16, 2024 (Thu 10:00 Am)
             </p>
           </div>
           <div className="pr_box">
@@ -123,8 +123,41 @@ const TokenSale = ({buyToken, tokenSale}) => {
                   <SiLitecoin/>
                 </li>
               </ul>
+              </div>
             </div>
-            </div>
+          </div>
+        </div>
+
+        <div className="col-lg-3">
+          <div className="pr_box">
+            <h6 className="animation" 
+            data-animation="fadeInUp" data-animation-delay="0.2s">
+              Low - High 24 h:
+            </h6>
+            <p className="animation" 
+            data-animation="fadeInUp" data-animation-delay="0.2s">
+              $4,534343 - #2,35454
+            </p>
+          </div>
+          <div className="pr_box">
+            <h6 className="animation" 
+            data-animation="fadeInUp" data-animation-delay="0.2s">
+              Total tokens sale
+            </h6>
+            <p className="animation" 
+            data-animation="fadeInUp" data-animation-delay="0.2s">
+              {tokenSale?.tokenSold} ZXT {showPercentage.slice(0,4)}%
+            </p>
+          </div>
+          <div className="pr_box">
+            <h6 className="animation" 
+            data-animation="fadeInUp" data-animation-delay="0.2s">
+              Acceptable Currency:
+            </h6>
+            <p className="animation" 
+            data-animation="fadeInUp" data-animation-delay="0.2s">
+              BTC, ETH, LTC, XRP
+            </p>
           </div>
         </div>
       </div>
