@@ -36,8 +36,8 @@ const Header = ({address, setAddress, connectWallet }) => {
     <div className="container-fluid">
       <nav className="navbar navbar-expand-lg">
         <a href="#home_section" data-animation="fadeInDown" data-animation-delay="1s" className="navbar-brand page-scroll animation">
-          <img src="assets/images/logo.png" alt="logo" className="logo_light" />
-          <img src="assets/images/logo_dark.png" alt="logo" className="logo_dark" />
+          <img src="assets/images/zexocash.png" alt="logo" className="logo_light" width={300} />
+          {/* <img src="assets/images/zexocash.png" alt="logo" className="logo_dark"/> */}
         </a>
 
         <button className="navbar-toggler animation" 

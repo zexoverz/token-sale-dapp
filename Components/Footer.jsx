@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="col-lg-4 col-md-12">
             <div className="footer_logo mb-3 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
               <a href="#home_section" className="page-scroll">
-                <img src="assets/images/footer_logo.png" alt="" className="" />
+                <img src="assets/images/zexocash.png" alt="" className="" />
               </a>
             </div>
 

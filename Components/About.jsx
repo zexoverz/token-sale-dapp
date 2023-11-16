@@ -13,9 +13,9 @@ const About = () => {
         </div>
 
         <div className="col-lg-6 col-md-12 col-sm-12 res_md_mt_30 res_sm_mt_20">
-          <div className="title_default_light border">
+          <div className="title_default_light title_border">
             <h4 className="animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-              About The Cryptocash
+              About The Zexocash
             </h4>
             <p className="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nostrum numquam sit nulla sint aspernatur soluta enim eaque, cum veniam hic repellat quis tempora. Aut cumque iusto cupiditate commodi ex!
