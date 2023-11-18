@@ -6,7 +6,7 @@ import {SiRipple, SiLitecoin} from "react-icons/si"
 const TokenSale = ({buyToken, tokenSale}) => {
   const [nToken, setNToken] = useState(1)
 
-  const percentage = (tokenSale?.tokenSold / tokenSale?.tokenSaleBalance) * 100
+  const percentage = (tokenSale?.tokenSold / Number(tokenSale?.tokenSaleBalance)) * 100
   const showPercentage = percentage.toString();
 
   return <section id="token" className="section_token token_sale bg_light_dark"
@@ -21,7 +21,7 @@ const TokenSale = ({buyToken, tokenSale}) => {
             </h4>
             <p className="animation" 
             data-animation="fadeInUp" data-animation-delay="0.2s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias deserunt placeat non ea iusto repudiandae quidem facere! Illum ipsum provident temporibus necessitatibus, vero magni ullam enim! Dicta dolorum voluptates minima.
+              Join the industry leaders to discuss where the markets are heading. We accept token payments.
             </p>
           </div>
         </div>
@@ -100,7 +100,7 @@ const TokenSale = ({buyToken, tokenSale}) => {
                 </span>
               </div>
 
-              <a className="btn btn-default btn-radius animation"
+              <a onClick={() => buyToken(nToken)} className="btn btn-default btn-radius animation"
               data-animation="fadeInUp" data-animation-delay="0.1s">
                 Buy Tokens <BsArrowRight/>
               </a>

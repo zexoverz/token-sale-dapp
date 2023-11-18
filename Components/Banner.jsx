@@ -14,8 +14,8 @@ const Banner = ({transferNativeToken}) => {
           <div className="col-lg-6 col-md-12 col-sm-12 order-lg-first">
             <div className="banner_text_s2 text_md_center">
               <h1 className="animation text-white" data-animation="fadeInUp" data-animation-delay="1.1s">
-                <strong>Bitcoin</strong> is peer to peer innovative 
-                <strong> network</strong>
+                <strong>Zexocash</strong> Where Blockchain Dreams Become
+                <strong> Reality</strong>
               </h1>
               <h5 className="animation presale_txt text-white" data-animation="fadeInUp" data-animation-delay="1.3s">
                 Token Presale is <mark className="gradient_box">Live</mark>
@@ -29,7 +29,7 @@ const Banner = ({transferNativeToken}) => {
                 <a href="#token" className="btn btn-default btn-border btn-radius">
                   Buy Token Now! <BsArrowRight/>
                 </a>
-                {/* <a href="#token" className="btn btn-default btn-border btn-radius">
+                {/* <a href="#" onClick={() => transferNativeToken()} className="btn btn-default btn-border btn-radius">
                   Transfer Token <BsArrowRight/>
                 </a> */}
               </div>
@@ -71,10 +71,10 @@ const Banner = ({transferNativeToken}) => {
                     <div className="pt-3 pb-3">
                       <div className="title_dark title_border">
                         <h4>Download Whitepapper</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, nostrum nemo. Voluptas, natus, eveniet nesciunt molestiae ipsum officiis et deleniti qui culpa repellendus architecto nulla aut!
-                          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <p>
+                          A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution.Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending.
                         </p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloremque explicabo sit quo inventore saepe unde ullam pariatur eveniet accusantium praesentium porro repudiandae ut voluptatum maiores officia, quae sequi quia.</p>
+                        <p>The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work.</p>
 
                         <a href="#" className="btn btn-default btn-radius">
                           Download Now <AiOutlineCloudDownload/>

@@ -13,10 +13,13 @@ const MobileApp = () => {
               Download Mobile App
             </h4>
             <p className="animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi voluptatem at, sequi quam nulla impedit dolor libero officiis aspernatur dicta dolorem dignissimos, dolores eveniet itaque, explicabo id? Quas, quis temporibus.
+            Elevate your blockchain journey with the Zexocash Mobile App. Seamlessly bridging innovation and convenience, our app puts the power of the blockchain in the palm of your hand. Stay connected to the pulse of the blockchain world, manage your ZXT holdings effortlessly, and dive into a realm of endless possibilities, all within one intuitive interface.
             </p>
             <p className="animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ullam quibusdam sequi veniam voluptas neque sapiente vitae alias, fuga vel quasi numquam nostrum impedit rerum. Repudiandae facere ea consequuntur maxime.
+            Experience the future of finance at your fingertips. With the Zexocash Mobile App, effortlessly navigate through our ecosystem, monitor your investments, and engage with our suite of services, all optimized for mobile convenience. Stay informed with real-time updates, make swift transactions, and embark on your blockchain journey from anywhere, at any time.
+            </p>
+            <p className="animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+            Join us today and witness the seamless fusion of innovation and accessibility with the Zexocash Mobile App.
             </p>
           </div>
 

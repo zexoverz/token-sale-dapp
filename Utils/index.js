@@ -27,7 +27,8 @@ export const connectWallet = async () => {
         })
 
         const firstAccount = accounts[0];
-        window.location.reload()
+        
+        window.location.reload();
 
         return firstAccount;
     } catch (error) {

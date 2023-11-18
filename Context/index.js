@@ -113,9 +113,12 @@ export const StateContextProvider = ({children}) => {
     
     //BUY TOKEN
     const buyToken = async (nToken) => {
+        console.log(nToken, "TOTAL N TOKEN")
         try {
-            const amount = ethers.utils.parseUnits(nToken.toString(), "wei")
+            let amountPay = nToken * Number(tokenSale.tokenPrice)
+            const amount = ethers.utils.parseUnits(amountPay.toString(), "ether")
             const contract = await connectingSALECONTRACT();
+
 
             const buying = await contract.buyToken(nToken, {
                 value: amount.toString()

@@ -20,7 +20,7 @@ const Footer = () => {
 
             <div className="footer_desc">
               <p className="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis similique sed unde quod at nam adipisci non facilis, corrupti quaerat, fugit itaque iste error iusto dicta esse doloremque facere odit.
+              Zexocash stands at the forefront of revolutionizing blockchain solutions, offering a comprehensive suite of services that redefine the landscape of digital finance. Our commitment to innovation, security, and user-centricity drives us to create an ecosystem that empowers individuals and businesses alike.
               </p>
             </div>
           </div>
@@ -48,7 +48,7 @@ const Footer = () => {
               </h4>
 
               <p className="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi quam ut numquam asperiores distinctio mollitia. Quod exercitationem minus ipsa facere.
+                By subscribing to our mailing list you will always be update with the latest news from us
               </p>
 
               <form action="#" className="subscribe_form animation" data-animation="fadeInUp" data-animation-delay="0.4s">

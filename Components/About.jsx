@@ -18,10 +18,11 @@ const About = () => {
               About The Zexocash
             </h4>
             <p className="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nostrum numquam sit nulla sint aspernatur soluta enim eaque, cum veniam hic repellat quis tempora. Aut cumque iusto cupiditate commodi ex!
+            Welcome to Zexocash, your gateway to a world of innovative blockchain projects and native token utility!
             </p>
+            <p className="animation" data-animation="fadeInUp" data-animation-delay="0.6s">At Zexocash, we are passionate about pioneering the next generation of blockchain-based solutions. Our platform serves as a launchpad for groundbreaking projects, all powered by our native token, ZXT.</p>
             <p className="animation" data-animation="fadeInUp" data-animation-delay="0.8s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nostrum numquam sit nulla sint aspernatur soluta enim eaque.
+            Zexocash envisions a future where blockchain technology seamlessly integrates into everyday life, offering practical solutions and driving positive change. We aim to create an ecosystem where innovation, reliability, and accessibility converge.
             </p>
           </div>
 

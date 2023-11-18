@@ -24,8 +24,7 @@ const Contact = () => {
                   Contact With Us
                 </h5>
                 <p className="animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                  Voluptate nihil debitis, dolor perferendis distinctio vel illo
+                  Reach out to us through our various channels—be it email, social media, or our dedicated support portal. Your voice matters, and we're eager to connect, collaborate, and build a brighter future together.
                 </p>
               </div>
 
