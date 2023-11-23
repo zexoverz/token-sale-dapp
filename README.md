@@ -6,7 +6,7 @@ Build my Launch ICO Token Salling Dapp, in which we can provide users to buy my 
 
 ![image](https://github.com/zexoverz/token-sale-dapp/blob/master/imgResult/buying.png)
 
-## Smart Contract
+## Smart Contract (Holesky Testnet Network)
 
 ```
 TokenSale: 0xdB67300e272150eF26523Ee30Efb4A9Cd98409C1
