@@ -12,9 +12,10 @@ export const CheckIfWalletConnected = async () => {
         })
 
         const firstAccount = accounts[0];
+
         return firstAccount;
     } catch (error) {
-        console.log(error)
+        console.log(error, "WALLET DISCONNECT")
     }
 }
 

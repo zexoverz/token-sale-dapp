@@ -109,7 +109,7 @@ export const StateContextProvider = ({children}) => {
 
     useEffect(() => {
         fetchInitialData()
-    }, [])
+    }, [address])
     
     //BUY TOKEN
     const buyToken = async (nToken) => {

@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {BiMenu} from "react-icons/bi"
 
 const Header = ({address, setAddress, connectWallet }) => {
+
+  useEffect(() => {
+    
+  }, [address])
+  
+
   const menuList = [
     {
       menu: "Home",
@@ -77,12 +83,12 @@ const Header = ({address, setAddress, connectWallet }) => {
                     {address.slice(0, 15)}...
                   </small>
                 </a>
-              ) : (<a onClick={() => connectWallet()} href="" className="btn btn-default btn-radius nav_item">
+              ) : (<button onClick={() => connectWallet()} className="btn btn-default btn-radius nav_item">
               <small className="new-color">
                 {""}
                 Connect
               </small>
-            </a>)}
+            </button>)}
             </li>
           </ul>
         </div>
